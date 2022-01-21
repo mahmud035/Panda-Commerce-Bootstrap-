@@ -63,13 +63,12 @@ header {
   line-height: 3.5rem;
   font-weight: 600;
   color: #1f1f1f;
- 
 }
 
 .showcase-area-container p {
   line-height: 26px;
   color: #4e4e4e;
-  padding-right: 3rem ;
+  padding-right: 3rem;
 }
 
 .showcase-price {
@@ -89,8 +88,6 @@ header {
   padding: 0.625rem 1rem;
   background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
 }
-
-
 
 /* ----------------Category Section---------------- */
 .category-area {
@@ -156,7 +153,7 @@ header {
   margin-left: 5px;
 }
 
-/* Contact Section */
+/* ----------------Contact Section------------------ */
 .contact-area {
   padding: 4rem 0;
 }
@@ -204,4 +201,19 @@ header {
 /* -----------------Footer Section------------------- */
 footer {
   height: 50px;
+}
+
+/* ---------------------Media Query--------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .showcase-header {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-hide {
+    display: none;
+    background-color: #ff136f;
+  }
 }
