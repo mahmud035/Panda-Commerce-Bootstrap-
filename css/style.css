@@ -211,7 +211,14 @@ footer {
   }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 992px) {
+  .form-hide {
+    display: none;
+    background-color: #ff136f;
+  }
+}
+
+@media (max-width: 500px)  {
   .form-hide {
     display: none;
     background-color: #ff136f;
