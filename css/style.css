@@ -46,7 +46,53 @@ header {
   background-color: #ffffff;
 }
 
-/* ------------------Category Section------------------ */
+/* -----------------Showcase Section---------------- */
+.showcase-area {
+  margin: 4rem 0;
+  padding: 0 1rem;
+}
+
+.showcase-area-container {
+  background: #feeae9;
+  border-radius: 20px;
+  padding: 2.5rem;
+}
+
+.showcase-header {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  color: #1f1f1f;
+ 
+}
+
+.showcase-area-container p {
+  line-height: 26px;
+  color: #4e4e4e;
+  padding-right: 3rem ;
+}
+
+.showcase-price {
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 61px;
+  color: #ff136f;
+  margin: 0 0 1.1rem 0;
+}
+
+.showcase-btn {
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0.625rem 1rem;
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+
+
+
+/* ----------------Category Section---------------- */
 .category-area {
   margin: 4rem 0 3rem;
 }
@@ -76,7 +122,7 @@ header {
   color: #ffffff;
 }
 
-/* ------------------Shoes Section-------------------- */
+/* -----------------Shoes Section------------------ */
 .see-more {
   font-weight: 500;
   font-size: 20px;
@@ -155,7 +201,7 @@ header {
   padding: 0.425rem 1.5rem;
 }
 
-/* -----------------Footer Section-------------------- */
+/* -----------------Footer Section------------------- */
 footer {
   height: 50px;
 }
